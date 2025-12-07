@@ -5,7 +5,7 @@ describe('Challenge Day 2', () => {
     const production1 = [
       { toy: 'car', quantity: 3 },
       { toy: 'doll', quantity: 1 },
-      { toy: 'ball', quantity: 2 }
+      { toy: 'ball', quantity: 2 },
     ];
     const result1 = manufactureGifts(production1);
     expect(result1).toEqual(['car', 'car', 'car', 'doll', 'ball', 'ball']);
@@ -15,7 +15,7 @@ describe('Challenge Day 2', () => {
     const production2 = [
       { toy: 'train', quantity: 0 },
       { toy: 'bear', quantity: -2 },
-      { toy: 'puzzle', quantity: 1 }
+      { toy: 'puzzle', quantity: 1 },
     ];
     const result2 = manufactureGifts(production2);
     expect(result2).toEqual(['puzzle']);
