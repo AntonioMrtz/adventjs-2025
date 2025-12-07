@@ -6,5 +6,6 @@
     "editor.insertSpaces": true, // Converts tabs to spaces
     "editor.detectIndentation": false // Prevents auto-detection of indentation style
   },
-  "jest.runMode": "on-save"
+  "jest.runMode": "on-save",
+  "editor.inlineSuggest.enabled": false
 }
